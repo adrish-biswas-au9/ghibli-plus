@@ -9,6 +9,10 @@
       "release_date": "1986",
       "rt_score": "95",
       "people": [
+        "http://localhost:8900/people/fe93adf2-2f3a-4ec4-9f68-5422f1b87c01",
+        "http://localhost:8900/people/598f7048-74ff-41e0-92ef-87dc1ad980a9",
+        "http://localhost:8900/people/",
+        "http://localhost:8900/people/",
         "http://localhost:8900/people/"
       ],
       "species": [
