@@ -1,6 +1,6 @@
-import LoginComponent from './Components/LoginComponent';
-import SignupComponent from './Components/SignupComponent';
-import Helper from './Components/Helper';
+import LoginComponent from './components/LoginComponent';
+import SignupComponent from './components/SignupComponent';
+import Helper from './components/Helper';
 import {Route, Switch} from 'react-router-dom'
 
 
