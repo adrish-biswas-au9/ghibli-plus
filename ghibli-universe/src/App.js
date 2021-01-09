@@ -1,24 +1,37 @@
+import React from 'react'
 import LoginComponent from './components/LoginComponent';
 import SignupComponent from './components/SignupComponent';
-import Helper from './components/Helper';
-import {Route, Switch} from 'react-router-dom'
+// import Helper from './components/Helper';
+import { Route, Switch } from 'react-router-dom'
+import Home from './pages/Home/Home'
+import ErrorPage from './pages/ErrorPage/ErrorPage'
 
 
 
-function App() {
-  return (
-    <div className="App">
-    <Helper/>
-    <Switch>
-      <Route exact path='/logincomponent' component={LoginComponent}/>
-      <Route exact path='/signupcomponent' component={SignupComponent}/>
-    </Switch>
-    {/* <LoginComponent/>
-    <SignupComponent/> */}
+class App extends React.Component {
+  state = {
+    isLog: false
+  }
 
-     
-    </div>
-  );
+  handleLogin = (isLog) => this.setState({ isLog })
+  render() {
+    const { isLog } = this.state;
+    return (
+      <div className="App">
+
+        <Switch>
+          <Route exact path='/' render={() => !isLog ? <LoginComponent isLogin={this.handleLogin} /> : <Home />} />
+          <Route exact path='/signupcomponent' component={SignupComponent} />
+          <Route path= '*' component={ErrorPage}/>
+        </Switch>
+        {/* <LoginComponent/>
+      <SignupComponent/> */}
+
+
+      </div>
+    );
+  }
+
 }
 
 export default App;

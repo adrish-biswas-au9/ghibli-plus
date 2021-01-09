@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {Link, NavLink } from 'react-router-dom';
 
 
 
@@ -26,6 +26,7 @@ class LoginComponent extends Component {
 
   handleSubmit =(event) => {
     event.preventDefault()
+    this.props.isLogin(true)
   }
 
 
@@ -33,7 +34,12 @@ class LoginComponent extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-      <div className="container" style={{ width: "500px", margin: "150px 0px 100px 700px" }}>
+      <div className="container" style={{ width: "250px", height: "75px", margin: "80px 0px 0px 930px", padding: '20px 0px 30px 40px ', backgroundColor: '#666633', borderRadius: '10px', display: 'flex'}} >
+          <NavLink to= './'><button className="btn btn-success" style={{ marginRight: '20px' }}>LOGIN </button></NavLink>
+          <NavLink to= './SignupComponent'><button className="btn btn-success" > SIGNUP</button></NavLink>
+          
+        </div>
+      <div className="container" style={{ width: "500px", margin: "3px 0px 100px 700px" }}>
         <div className="panel panel-danger" style={{
           backgroundColor: '#666633', borderRadius: '10px', padding: '15px'
         }} >

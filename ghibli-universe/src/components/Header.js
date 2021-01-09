@@ -28,7 +28,7 @@ const Header = () => {
           </li>
           
         </ul>
-        <form class="form-inline">
+        <form className="form-inline">
           <Link><img src="./826333.png" width="200" height="230" id="header-image" className="d-inline-block align-bottom" alt="" loading="lazy"/></Link>
         </form>
       </div>
