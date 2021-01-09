@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Routing from './Routing';
+import { BrowserRouter } from "react-router-dom";
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <Routing />
+    <BrowserRouter>
+      <Routing/>
+    </BrowserRouter>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

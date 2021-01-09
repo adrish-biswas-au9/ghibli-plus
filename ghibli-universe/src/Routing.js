@@ -3,10 +3,12 @@ import {BrowserRouter,Route} from 'react-router-dom';
 import Footer from './components/Footer';
 import Login from './pages/Login';
 import Header from './components/Header';
+import App from './App'
 const Routing = () => { 
     return (
         <BrowserRouter>
             <Header />
+            <App/>
             {/* <Route exact path = '/' component={Login} />  */}
             {/* <Route path = '/list/:id' component={Listing} />
             <Route path = '/details/:id' component={Details} />
@@ -15,7 +17,7 @@ const Routing = () => {
             <Route path="/register" component={RegisterComponent}/>
             <Route path="/login" component={LoginComponent}/>
             <Route path="/bookinglist" component={BookingList}/> */}
-            <Footer  />
+            <Footer />
         </BrowserRouter>
     )
 }
