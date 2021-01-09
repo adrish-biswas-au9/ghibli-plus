@@ -1,14 +1,43 @@
+
 .navbar{
     background-color:#716944;
+    height: 80px;
+    padding: 0px;
+    border:0px;
   }
 #navbarDropdown{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
     color: #cccdb4;
+    margin-left: 30px;
+    transition : all 1s;
+}
+#navbarDropdown:hover {
+    background-color:#1a1503;
 }
 
 #home-link{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
     color: #cccdb4;
+    transition : all 1s;
+}
+#home-link:hover {
+    background-color:#1a1503;
+}
+#link-link{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #cccdb4;
+    margin-left: 30px;
+    transition : all 1s;
+}
+#link-link:hover {
+    background-color:#1a1503;
 }
 
-#link-link{
-    color: #cccdb4;
+#header-image{
+    padding-top: 65px;
+    background-color: #ac8b52;
+    filter:  sepia(100%)
 }

@@ -1,12 +1,19 @@
 import React from 'react';
-
+import './Footer.css'
 const Footer = () => {
-    return(
+    return (
         <React.Fragment>
-            <hr/>
-            <center>
-                <h3>&copy; Studio Ghibli Universe </h3>
-            </center>
+            <div id="footer">
+                <hr />
+                <center>
+                    &copy; Studio Ghibli Universe
+                    <br />
+                    <img src="./826333.png" width="50" height="50" className="d-inline-block align-bottom" alt="" loading="lazy" />
+                
+                </center>
+                    
+            </div>
+
         </React.Fragment>
     )
 }
