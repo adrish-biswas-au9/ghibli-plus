@@ -19,7 +19,7 @@ class SignupComponent extends Component {
     return (
       <div className="container" style={{ width: "500px", margin: "150px 0px 100px 700px" }}>
         <div className="panel panel-danger" style={{
-          backgroundColor: '#666633', borderRadius: '10px'
+          backgroundColor: '#666633', borderRadius: '10px', padding: '15px'
         }} >
 
           <h3 style={{ marginLeft: '15px' }}> Signup </h3>
