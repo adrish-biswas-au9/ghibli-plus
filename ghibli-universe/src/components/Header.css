@@ -41,3 +41,15 @@
     background-color: #ac8b52;
     filter:  sepia(100%)
 }
+#menu{
+    background-color: #716944;
+    
+}
+.dropdown-item{
+    color: #cccdb4;
+    transition : all 0.5s;
+}
+.dropdown-item:hover{
+    background-color:#1a1503;
+    color: #cccdb4;
+}
