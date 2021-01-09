@@ -21,9 +21,9 @@ const Header = () => {
               Dropdown
         </Link>
             <div className="dropdown-menu" id="menu" aria-labelledby="navbarDropdown">
-              <Link id ="1st" className="dropdown-item" href="#">Action</Link>
-              <Link id ="2nd" className="dropdown-item" href="#">Another action</Link>
-              <Link id ="3rd" className="dropdown-item" href="#">Something else here</Link>
+              <Link  className="dropdown-item" href="#">Action</Link>
+              <Link  className="dropdown-item" href="#">Another action</Link>
+              <Link  className="dropdown-item" href="#">Something else here</Link>
             </div>
           </li>
           
