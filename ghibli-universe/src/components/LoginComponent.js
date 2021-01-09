@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link, NavLink } from 'react-router-dom';
 
+const burl="http://localhost:5000/api/auth/login";
 
 
 class LoginComponent extends Component {
@@ -13,21 +14,41 @@ class LoginComponent extends Component {
       error: '',
     }
   }
-  // handleChangeEmail = (event) => {
-  //   this.setState({ email: event.target.value })
-  // }
-  // handleChangePassword = (event) => {
-  //   this.setState({ password: event.target.value })
-  // }
-  handleChange = (event) => {
-    const{name,value} = event.target
-    this.setState({[name]:value})
+  handleChangeEmail = (event) => {
+    this.setState({ email: event.target.value })
   }
+  handleChangePassword = (event) => {
+    this.setState({ password: event.target.value })
+  }
+  // handleChange = (event) => {
+  //   const{name,value} = event.target
+  //   this.setState({[name]:value})
+  // }
 
   handleSubmit =(event) => {
     event.preventDefault()
     this.props.isLogin(true)
+    fetch(burl,{
+      method:'POST',
+      headers:{
+          'Accept':'application/json',
+          'Content-Type':'application/json'
+      },
+      body:JSON.stringify(this.state)
+  })
+  .then((res) => res.json())
+  .then((data) => {
+      console.log(data)
+      sessionStorage.setItem('email',this.state.email);
+      sessionStorage.setItem('_ltk',data.token);
+      this.props.history.push('/')
+  })
+  .catch((err) => {
+      this.setState({error:"Invalid UserName or Password"})
+  })
   }
+
+  
 
 
 
@@ -52,12 +73,12 @@ class LoginComponent extends Component {
             <div className="form-group">
               <label className="control-label">Email</label>
               <input type="text" name="email" value={this.state.email} className="form-control"
-                onChange={this.handleChange} required />
+                onChange={this.handleChangeEmail} required />
             </div>
             <div className="form-group">
               <label className="control-label">Password</label>
               <input type="password" name="password" value={this.state.password} className="form-control"
-                onChange={this.handleChange} required />
+                onChange={this.handleChangePassword} required />
             </div>
             <button className="btn btn-success" onSubmit={this.handleSubmit}>Login</button>
           </div>

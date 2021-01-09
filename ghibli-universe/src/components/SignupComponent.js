@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link, NavLink } from 'react-router-dom';
 
-
+const burl="http://localhost:5000/api/auth/register";
 
 
 class SignupComponent extends Component {
@@ -32,8 +32,18 @@ class SignupComponent extends Component {
 
   handleSubmit =(event) => {
     event.preventDefault()
-    console.log("hello")
-    this.props.history.push('/')
+    console.log(this.state)
+    fetch(burl,{
+        method:'POST',
+        headers:{
+            'Accept':'application/json',
+            'Content-Type':'application/json'
+        },
+        body:JSON.stringify(this.state)
+    })
+    .then(
+        
+        this.props.history.push('/'))
   }
   render() {
     return (
