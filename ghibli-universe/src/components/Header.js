@@ -4,7 +4,7 @@ import "./Header.css"
 
 const Header = () => {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-light">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark" style={{ backgroundColor: "#716944" }}>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -19,18 +19,18 @@ const Header = () => {
           <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dropdown
-        </Link>
+            </Link>
             <div className="dropdown-menu" id="menu" aria-labelledby="navbarDropdown">
-              <Link  className="dropdown-item" href="#">Action</Link>
-              <Link  className="dropdown-item" href="#">Another action</Link>
-              <Link  className="dropdown-item" href="#">Something else here</Link>
+              <Link className="dropdown-item" href="#">Action</Link>
+              <Link className="dropdown-item" href="#">Another action</Link>
+              <Link className="dropdown-item" href="#">Something else here</Link>
             </div>
           </li>
-          
+
         </ul>
-        <form className="form-inline">
-          <Link><img src="./826333.png" width="200" height="230" id="header-image" className="d-inline-block align-bottom" alt="" loading="lazy"/></Link>
-        </form>
+        
+          <Link><img src="https://www.studioghibli.com.au/wp-content/uploads/2017/07/ghibli_logo_gold.png" width="100" height="50" id="header-image" className="d-inline-block align-bottom" alt="" loading="lazy" /></Link>
+       
       </div>
     </nav>
   )

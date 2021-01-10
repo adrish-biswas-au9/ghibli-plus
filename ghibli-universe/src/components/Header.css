@@ -1,9 +1,9 @@
 
 .navbar{
-    background-color:#716944;
-    height: 80px;
+    /* height: 80px;
     padding: 0px;
-    border:0px;
+    border:0px; */
+    transition: all 1s;
   }
 #navbarDropdown{
     font-size: 14px;
@@ -20,6 +20,7 @@
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
     color: #cccdb4;
+    margin-left: 30px;
     transition : all 1s;
 }
 #home-link:hover {
@@ -37,15 +38,18 @@
 }
 
 #header-image{
-    padding-top: 65px;
-    background-color: #ac8b52;
-    filter:  sepia(100%)
+    background-color:#fefefe;
 }
 #menu{
     background-color: #716944;
-    
+    border: none;
+    transition : all 1s;
 }
 .dropdown-item{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-right: 30px;
     color: #cccdb4;
     transition : all 0.5s;
 }
