@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <React.Fragment>
-            <div id="footer">
+            <div id="footer" style={{clear:'both'}}>
                 <center>
                     &copy; Studio Ghibli Universe
                     <br />
