@@ -3,7 +3,7 @@ import LoginComponent from './components/LoginComponent';
 import SignupComponent from './components/SignupComponent';
 // import Helper from './components/Helper';
 import { Route, Switch } from 'react-router-dom'
-import Home from './pages/Home/Home'
+import Home from './pages/Home'
 import ErrorPage from './pages/ErrorPage/ErrorPage'
 
 
