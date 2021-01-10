@@ -28,9 +28,9 @@ const Header = () => {
           </li>
 
         </ul>
-        
-          <Link><img src="https://www.studioghibli.com.au/wp-content/uploads/2017/07/ghibli_logo_gold.png" width="100" height="50" id="header-image" className="d-inline-block align-bottom" alt="" loading="lazy" /></Link>
-       
+
+        <Link><img src="https://www.studioghibli.com.au/wp-content/uploads/2017/07/ghibli_logo_gold.png" width="100" height="50" id="header-image" className="d-inline-block align-bottom" alt="" loading="lazy" /></Link>
+
       </div>
     </nav>
   )
