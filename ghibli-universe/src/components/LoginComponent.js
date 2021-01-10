@@ -73,7 +73,7 @@ class LoginComponent extends Component {
               </div>
               <div className="form-group">
                 <label className="control-label">Password</label>
-                <input type="text" name="order_id" value={this.state.password} className="form-control"
+                <input type="password" name="order_id" value={this.state.password} className="form-control"
                   onChange={this.handleChangePassword} required />
               </div>
               <button className="btn btn-success" onClick={this.handleSubmit}>Login</button>
