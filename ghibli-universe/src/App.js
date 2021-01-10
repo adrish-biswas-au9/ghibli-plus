@@ -6,24 +6,27 @@ import { Route, Switch } from 'react-router-dom'
 import Home from './pages/Home'
 import ErrorPage from './pages/ErrorPage/ErrorPage'
 
+import {BrowserRouter} from 'react-router-dom'; 
+import Footer from './components/Footer';
+import Login from './pages/Login';
+import Header from './components/Header';
 
 
-class App extends React.Component {
-  state = {
-    isLog: false
-  }
 
-  handleLogin = (isLog) => this.setState({ isLog })
-  render() {
-    const { isLog } = this.state;
+const App = () => {
     return (
       <div className="App">
 
-        <Switch>
-          <Route exact path='/' render={() => !isLog ? <LoginComponent isLogin={this.handleLogin} /> : <Home />} />
-          <Route exact path='/signupcomponent' component={SignupComponent} />
-          <Route path= '*' component={ErrorPage}/>
-        </Switch>
+        <BrowserRouter>
+        <Header />
+        <Route exact path='/' component={SignupComponent} />
+          <Route path='/logincomponent' component={LoginComponent}/>
+          
+          <Route path="/home" component={Home}/>
+
+          <Footer />
+          {/* <Route path= '*' component={ErrorPage}/> */}
+        </BrowserRouter>
         {/* <LoginComponent/>
       <SignupComponent/> */}
 
@@ -32,6 +35,6 @@ class App extends React.Component {
     );
   }
 
-}
+
 
 export default App;

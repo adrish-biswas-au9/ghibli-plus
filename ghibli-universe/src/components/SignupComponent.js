@@ -3,54 +3,51 @@ import {Link, NavLink } from 'react-router-dom';
 
 const burl="http://localhost:5000/api/auth/register";
 
+class SignupComponent extends Component{
+    constructor(){
+        super()
 
-class SignupComponent extends Component {
-
-  constructor() {
-    super()
-
-    this.state = {
-      name: '',
-      email: '',
-      password: ''
+        this.state={
+            name:'',
+            email:'',
+            password:''
+        }
     }
-  }
-  // handleChangeName = (event) => {
-  //   this.setState({ name: event.target.value })
-  // }
-  // handleChangeEmail = (event) => {
-  //   this.setState({ email: event.target.value })
-  // }
-  // handleChangePassword = (event) => {
-  //   this.setState({ password: event.target.value })
-  // }
 
-  handleChange = (event) => {
-    const{name,value} = event.target
-    this.setState({[name]:value})
-  }
+    handleChangeName = (event) => {
+        this.setState({name:event.target.value})
+    }
+    handleChangeEmail = (event) => {
+        this.setState({email:event.target.value})
+    }
+    handleChangePassword = (event) => {
+        this.setState({password:event.target.value})
+    }
+    handleChangeRole = (event) => {
+        // console.log(event.target.value);
+        this.setState({role:event.target.value})
+    }
+    handleSubmit =() => {
+        console.log(this.state)
+        fetch(burl,{
+            method:'POST',
+            headers:{
+                'Accept':'application/json',
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify(this.state)
+        })
+        .then(
+            
+            this.props.history.push('/LoginComponent'))
+    }
 
-  handleSubmit =(event) => {
-    event.preventDefault()
-    console.log(this.state)
-    fetch(burl,{
-        method:'POST',
-        headers:{
-            'Accept':'application/json',
-            'Content-Type':'application/json'
-        },
-        body:JSON.stringify(this.state)
-    })
-    .then(
-        
-        this.props.history.push('/'))
-  }
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <>
       <div className="container" style={{ width: "250px", height: "75px", margin: "80px 0px 0px 930px", padding: '20px 0px 30px 40px ', backgroundColor: '#666633', borderRadius: '10px', display: 'flex'}} >
-          <NavLink to= './'><button className="btn btn-success" style={{ marginRight: '20px' }}>LOGIN </button></NavLink>
-          <NavLink to= './SignupComponent'><button className="btn btn-success" > SIGNUP</button></NavLink>
+          <NavLink to= './LoginComponent'><button className="btn btn-success" style={{ marginRight: '20px' }}>LOGIN </button></NavLink>
+          <NavLink to= './'><button className="btn btn-success" > SIGNUP</button></NavLink>
           
         </div>
       <div className="container" style={{ width: "500px", margin: "3px 0px 100px 700px"  }}>
@@ -66,26 +63,28 @@ class SignupComponent extends Component {
             <div className="form-group">
               <label className="control-label">Name</label>
               <input type="text" name="name" value={this.state.name} className="form-control"
-                required onChange={this.handleChange}  />
+                required onChange={this.handleChangeName}  />
             </div>
             <div className="form-group">
               <label className="control-label">Email</label>
               <input type="text" name="email" value={this.state.email} className="form-control"
-                required onChange={this.handleChange}  />
+                required onChange={this.handleChangeEmail}  />
             </div>
             <div className="form-group">
               <label className="control-label">Password</label>
               <input type="text" name="password" value={this.state.password} className="form-control"
-                required onChange={this.handleChange} />
+                required onChange={this.handleChangePassword} />
             </div>
             <button className="btn btn-success" onClick={this.handleSubmit}>Signup</button>
           </div>
         </div>
 
       </div>
-      </form>
+    </>
     )
   }
 }
+
+
 
 export default SignupComponent;
