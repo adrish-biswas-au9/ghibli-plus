@@ -63,17 +63,17 @@ class SignupComponent extends Component{
             <div className="form-group">
               <label className="control-label">Name</label>
               <input type="text" name="name" value={this.state.name} className="form-control"
-                required onChange={this.handleChangeName}  />
+                onChange={this.handleChangeName} required />
             </div>
             <div className="form-group">
               <label className="control-label">Email</label>
               <input type="text" name="email" value={this.state.email} className="form-control"
-                required onChange={this.handleChangeEmail}  />
+                 onChange={this.handleChangeEmail} required />
             </div>
             <div className="form-group">
               <label className="control-label">Password</label>
               <input type="text" name="password" value={this.state.password} className="form-control"
-                required onChange={this.handleChangePassword} />
+                 onChange={this.handleChangePassword} required />
             </div>
             <button className="btn btn-success" onClick={this.handleSubmit}>Signup</button>
           </div>
