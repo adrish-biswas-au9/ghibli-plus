@@ -7,12 +7,8 @@ import {BrowserRouter} from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
-
-
 const Routing = () => {
     return (
-      <div className="Routing">
-
         <BrowserRouter>
           <Header />
           <Route exact path='/' component={SignupComponent} />
@@ -20,11 +16,7 @@ const Routing = () => {
           <Route path="/home" component={Home}/>
           <Footer />
         </BrowserRouter>
-
-      </div>
     );
   }
-
-
 
 export default Routing;

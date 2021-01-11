@@ -1,0 +1,45 @@
+.movie_poster{
+    display:inline-block;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+.movie_poster_container{
+    display:inline-block;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 3px solid rgb(9, 177, 233);
+    background-color: lightblue;
+}
+.movie_grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    /* background-attachment: fixed; */
+}
+.slider > h4{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#1a1503;
+    display:inline-block;
+    color: #cccdb4;
+}
+.slider > h3{
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#1a1503;
+    display:inline-block;
+    color: #cccdb4;
+}

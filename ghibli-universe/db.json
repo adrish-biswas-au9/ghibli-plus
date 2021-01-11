@@ -32,7 +32,7 @@
       "vehicles": [
         "http://localhost:8900/vehicles/"
       ],
-      "image_url": "https://www.reelviews.net/resources/img/posters/thumbs/castle_poster.jpg"
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg"
     },
     {
       "id": "12cfb892-aac0-4c5b-94af-521852e46d6a",
@@ -54,7 +54,7 @@
       "vehicles": [
         "http://localhost:8900/vehicles/"
       ],
-      "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/4/4c/Ghibli_grave_of_the_fireflies_film_poster.jpg"
+      "image_url": "https://image.tmdb.org/t/p/original/2jwQhzuP1RefkUI4PCaEgioCHrv.jpg"
     },
     {
       "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49",
@@ -87,7 +87,7 @@
       "vehicles": [
         "http://localhost:8900/vehicles/"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/en/0/02/My_Neighbor_Totoro_-_Tonari_no_Totoro_%28Movie_Poster%29.jpg"
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/007/731/078/large/jackson-hadaway-my-neighbour-totoro-2.jpg?1508149198"
     },
     {
       "id": "ea660b10-85c4-4ae3-8a5f-41cea3648e3e",
@@ -253,7 +253,7 @@
       "vehicles": [
         "http://localhost:8900/vehicles/"
       ],
-      "image_url": "https://static.wikia.nocookie.net/dubbing9585/images/f/fa/My-neighbors-the-yamadas-poster.jpg/revision/latest?cb=20171223052252"
+      "image_url": "https://gkids.com/wp-content/uploads/2018/06/16-01-02.0597.jpg"
     },
     {
       "id": "dc2e6bd1-8156-4886-adff-b39e6043af0c",
