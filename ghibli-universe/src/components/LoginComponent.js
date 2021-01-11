@@ -43,7 +43,10 @@ class LoginComponent extends Component {
       })
   }
 
-
+ topFunction=() =>{
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 
 
 
@@ -153,7 +156,7 @@ class LoginComponent extends Component {
     <div className="col-xs-7 col-sm-6 col-lg-8 "  >
     <br></br><br></br><br></br><br></br>
       <h3>Lookout for the highest rated movies, learn in detail about your favorite movies, characters, locations and vehicles</h3>
-      <button className="btn btn-success" >Get Started</button>
+      <button className="btn btn-success" onClick={this.topFunction} >Get Started</button>
       </div>
   </div>
   <hr style={{ backgroundColor: '#2b250f', height: '2px' }}></hr>
@@ -164,7 +167,7 @@ class LoginComponent extends Component {
     <br></br><br></br><br></br><br></br>
       
       <h3>Buy the wearables of your favorite choice and feel yourself elevated!</h3>
-      <button className="btn btn-success" >Get Started</button>
+      <button className="btn btn-success" onClick={this.topFunction} >Get Started</button>
     </div>
     <div className="col-xs-5 col-sm-6 col-lg-4 " style={{textAlign:'right'}} >
     <img src={'https://vip.socio-corp.jp/wp-content/uploads/sites/3/2020/06/gt-100.png?w=640'} alt="Logo" width='300px' style={{borderRadius:'5px', border:'3px solid #2b250f'}}/>
@@ -186,7 +189,7 @@ class LoginComponent extends Component {
     <br></br><br></br>
     
     <h3>Collect Exclusive Action figures of your favorite character and brighten up your place and ofcourse your mood!</h3>
-    <button className="btn btn-success" >Get Started</button>
+    <button className="btn btn-success" onClick={this.topFunction} >Get Started</button>
     </div>
     
     
