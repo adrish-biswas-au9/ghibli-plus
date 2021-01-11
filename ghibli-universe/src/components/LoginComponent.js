@@ -52,8 +52,8 @@ class LoginComponent extends Component {
       <div className="float" style={{float:'right', display:'flex', flexWrap:'wrap'}}>
       <div style={{margin: "80px 0px 0px 1110px" }}>
         {/* <div className="container" style={{ width: "250px", height: "75px", margin: "80px 0px 0px 930px", padding: '20px 0px 30px 40px ', backgroundColor: '#666633', borderRadius: '10px', display: 'flex' }} > */}
-          <NavLink to='./LoginComponent'><button className='btn' style={{ marginRight: '10px', backgroundColor: '#2b250f' }}>LOGIN </button></NavLink>
-          <NavLink to='./'><button className='btn' style={{backgroundColor: '#2b250f' }} > SIGNUP</button></NavLink>
+          <NavLink to='./LoginComponent'><button className='btn' style={{ marginRight: '10px', backgroundColor: '#2b250f', color: '#cccdb4' }}>LOGIN </button></NavLink>
+          <NavLink to='./'><button className='btn' style={{backgroundColor: '#2b250f', color: '#cccdb4' }} > SIGNUP</button></NavLink>
 
         </div>
         <div className="container" style={{ width: "400px", margin: "3px 0px 100px 900px" }}>
