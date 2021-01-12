@@ -16,10 +16,11 @@ const HomeDisplay = (props) => {
     const display = (filmslist) => {
         if (filmslist) {
             return filmslist.map((item) => {
+                const movieRoute ='/films/'+item.id;
                 return (
                     <>
 
-                        <div className='movie_poster_container'><Link><img className='movie_poster' src={item.image_url} alt='movie_poster'></img><br /><center>{item.title}</center></Link></div>
+                        <div className='movie_poster_container'><Link to={movieRoute}><img className='movie_poster' src={item.image_url} alt='movie_poster'></img><br /><center>{item.title}</center></Link></div>
                     </>
                 )
             })
@@ -40,15 +41,19 @@ const HomeDisplay = (props) => {
                             <div className='PresentedBy1'>
                                 <img id="HomeImage1" src='./826333.png' alt='PresentedBy' />
                             </div>
-                            <div className='PresentedBy2' ><img id="HomeImage2" src='https://www.studioghibli.com.au/wp-content/uploads/2017/07/ghibli_logo_white-1.png' alt='PresentedBy' /></div>
-                            <div className='HomeLogo'><img id="HomeImage3" src='https://www.studioghibli.com.au/wp-content/uploads/2017/07/ghibli_logo_gold.png' alt='logo' /></div>
+                            <div className='PresentedBy2'>
+                                <img id="HomeImage2" src='https://www.studioghibli.com.au/wp-content/uploads/2017/07/ghibli_logo_white-1.png' alt='PresentedBy' />
+                            </div>
+                            <div id='HomeLogo'>
+                                <img className='d-none d-xl-block' id="HomeImage3" src='https://www.studioghibli.com.au/wp-content/uploads/2017/07/ghibli_logo_gold.png' alt='logo' />
+                                <p>Studio Ghibli Universe</p>
+                            </div>
                         </div>
                     </>
                 )
             })
         }
     }
-    
     return (
         <>
             <Slider {...settings}>
@@ -67,7 +72,10 @@ const HomeDisplay = (props) => {
                     </p>
                 </center>
             </div>
+            <br/>
+            
             <div className="container">
+                <center><h2 className='CategoryHeading'>Movies</h2></center>
                 <div className="movie_grid">
                     {display(props.filmslist)}
                 </div>
