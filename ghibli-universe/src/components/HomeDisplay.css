@@ -17,6 +17,7 @@
     flex-wrap: wrap;
 }
 .slider{
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -42,4 +43,61 @@
     background-color:#1a1503;
     display:inline-block;
     color: #cccdb4;
+}
+
+.HomeLogo{
+    display: inline-block;
+    margin: 0px;
+    margin-left: 560px;
+    padding: 30px;
+    background-color:#fefefe;
+}
+
+.PresentedBy1{
+    display: inline-block;
+    
+    margin:0px;
+    margin-left: 30px;
+}
+
+.PresentedBy2{
+    display: inline-block;
+    margin: 0px;
+   
+    margin-left: 30px;
+}
+
+#HomeImage1{
+    height: 80px;
+    width: 80px;
+    filter: sepia();
+}
+
+#HomeImage2{
+    height: 80px;
+    width: 160px;
+    /* filter:invert(); */
+    background-color: rgb(9, 177, 233);
+}
+
+h6{
+    margin-top: 650px;
+    display:inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#1a1503;
+    color: #cccdb4;
+}
+.HomeDescription{
+    font-family: 'Lora', serif;
+    background-color: #504721;
+    padding: 60px;
+    font-weight: 400;
+    color: #ede6cb;
+}
+.HomeDescription p {
+    font-size: 20px;
+}
+
+.HomeDescription h2 {
+    font-size: 35px;
 }
