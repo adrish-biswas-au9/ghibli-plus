@@ -40,7 +40,7 @@ class LoginComponent extends Component {
       })
       .catch((err) => {
         this.setState({ error: "Invalid Credentials!!!" })
-      })
+    })
   }
 
  topFunction=() =>{
@@ -113,8 +113,8 @@ class LoginComponent extends Component {
 
     <div className="row">
     <div className="col-xs-7 col-sm-6 col-lg-8">
-    <img src={'https://wallpaperaccess.com/full/244846.jpg'} alt="Logo" width='770px' style={{borderRadius:'10px'}}/>
-    <br></br><br></br><h3>Make your Studio Ghibli Account and watch the latest anime movies from our collection.</h3></div>
+    <img src={'https://wallpaperaccess.com/full/244846.jpg'} alt="Logo" width='100%' style={{borderRadius:'10px'}}/>
+    <br></br><br></br><h3>Make your Studio Ghibli Account and watch the latest anime movies from our collection.</h3><br></br></div>
 
     <div className="col-xs-5 col-sm-6 col-lg-4" style={{  textAlign:'right'}}>
       <div className="sub-col" >
@@ -125,9 +125,11 @@ class LoginComponent extends Component {
               <h4>Login</h4>
               <hr style={{ backgroundColor: '#2b250f', height: '2px' }}></hr>
             </div>
-            <h6 style={{color:'red'}}>{this.state.error}</h6>
+            {/* <h6 style={{color:'red'}}> {this.state.error}</h6> */}
+            <p style={{color:'red'}}>{this.state.error}</p>
+
             <div className="panel-body">
-              <div className="form-group">
+              <div className="">
                 <label className="control-label">Email</label>
                 <input type="text" name="order_id" value={this.state.email} className="form-control"
                   onChange={this.handleChangeEmail} required />
@@ -169,8 +171,8 @@ class LoginComponent extends Component {
       <h3>Buy the wearables of your favorite choice and feel yourself elevated!</h3>
       <button className="btn btn-success" onClick={this.topFunction} >Get Started</button>
     </div>
-    <div className="col-xs-5 col-sm-6 col-lg-4 " style={{textAlign:'right'}} >
-    <img src={'https://vip.socio-corp.jp/wp-content/uploads/sites/3/2020/06/gt-100.png?w=640'} alt="Logo" width='300px' style={{borderRadius:'5px', border:'3px solid #2b250f'}}/>
+    <div className="col-xs-5 col-sm-6 col-lg-4 " style={{textAlign:'right'}} ><br></br>
+    <img src={'https://vip.socio-corp.jp/wp-content/uploads/sites/3/2020/06/gt-100.png?w=640'} alt="Logo" width='320px' style={{borderRadius:'5px', border:'3px solid #2b250f'}}/>
     
     
     </div>
@@ -189,12 +191,12 @@ class LoginComponent extends Component {
     <br></br><br></br>
     
     <h3>Collect Exclusive Action figures of your favorite character and brighten up your place and ofcourse your mood!</h3>
-    <button className="btn btn-success" onClick={this.topFunction} >Get Started</button>
+    <button className="btn btn-success" onClick={this.topFunction} >Get Started</button><br></br>
     </div>
     
     
   </div>
-  
+  <br></br>
 </div>
 
 </div>

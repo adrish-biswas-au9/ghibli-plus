@@ -109,8 +109,8 @@ class SignupComponent extends Component{
 
     <div className="row">
     <div className="col-xs-7 col-sm-6 col-lg-8">
-    <img src={'https://wallpaperaccess.com/full/244846.jpg'} alt="Logo" width='770px' style={{borderRadius:'10px'}}/>
-    <br></br><br></br><h3>Make your Studio Ghibli Account and watch the latest anime movies from our collection.</h3></div>
+    <img src={'https://wallpaperaccess.com/full/244846.jpg'} alt="Logo" width='100%' style={{borderRadius:'10px'}}/>
+    <br></br><br></br><h3>Make your Studio Ghibli Account and watch the latest anime movies from our collection.</h3><br></br></div>
 
     <div class="col-xs-5 col-sm-6 col-lg-4" style={{  textAlign:'right'}}>
 
@@ -176,7 +176,7 @@ class SignupComponent extends Component{
       <button className="btn btn-success" onClick={this.topFunction} >Get Started</button>
     </div>
     <div className="col-xs-5 col-sm-6 col-lg-4 " style={{textAlign:'right'}} >
-    <img src={'https://vip.socio-corp.jp/wp-content/uploads/sites/3/2020/06/gt-100.png?w=640'} alt="Logo" width='300px' style={{borderRadius:'5px', border:'3px solid #2b250f'}}/>
+    <img src={'https://vip.socio-corp.jp/wp-content/uploads/sites/3/2020/06/gt-100.png?w=640'} alt="Logo" width='320px' style={{borderRadius:'5px', border:'3px solid #2b250f'}}/>
     
     
     </div>
