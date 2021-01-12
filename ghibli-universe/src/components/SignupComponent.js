@@ -196,12 +196,12 @@ class SignupComponent extends Component{
     <br></br><br></br>
     
     <h3>Collect Exclusive Action figures of your favorite character and brighten up your place and ofcourse your mood!</h3>
-    <button className="btn btn-success" onClick={this.topFunction} >Get Started</button>
+    <button className="btn btn-success" onClick={this.topFunction} >Get Started</button><br></br>
     </div>
     
     
   </div>
-
+  <br></br>
   </div>
   </div>
  
