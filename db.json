@@ -1484,7 +1484,11 @@
       "eye_color": "Black",
       "hair_color": "Brown",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://soranews24.com/wp-content/uploads/sites/3/2019/10/lp-4.png"
@@ -1497,7 +1501,11 @@
       "eye_color": "Black",
       "hair_color": "Black",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/5/58/Castleinthesky-disneyscreencaps.com-1682.jpg"
@@ -1510,7 +1518,11 @@
       "eye_color": "Black",
       "hair_color": "Peach",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://cdn.vox-cdn.com/thumbor/Wnv1dbTyR8DdkHXDOMTEDE8D_-Y=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19998760/Dola.jpg"
@@ -1523,7 +1535,11 @@
       "eye_color": "Black",
       "hair_color": "Brown",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://i.ytimg.com/vi/JfIwOTb-GK8/maxresdefault.jpg"
@@ -1536,7 +1552,11 @@
       "eye_color": "Black",
       "hair_color": "White",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/d/de/Uncle_Pom.png"
@@ -1549,7 +1569,11 @@
       "eye_color": "Black",
       "hair_color": "None",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://www.cornel1801.com/animated/castle-in-the-sky-1986/pictures/105.jpg"
@@ -1562,7 +1586,11 @@
       "eye_color": "Dark brown",
       "hair_color": "Dark brown",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://pbs.twimg.com/media/ETZhSpKWsAAxd8D.jpg"
@@ -1575,7 +1603,11 @@
       "eye_color": "Dark brown",
       "hair_color": "Dark brown",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://studioghiblimovies.com/wp-content/uploads/2014/11/image0105.jpg"
@@ -1588,7 +1620,11 @@
       "eye_color": "Dark brown",
       "hair_color": "Light brown",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/8/80/Louis.jpg"
@@ -1601,7 +1637,11 @@
       "eye_color": "Dark brown",
       "hair_color": "Reddish brown",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://studioghiblimovies.com/wp-content/uploads/2014/11/image0124.jpg"
@@ -1614,7 +1654,11 @@
       "eye_color": "Dark brown",
       "hair_color": "None",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://i.pinimg.com/564x/ba/70/72/ba7072b95af1e5ccdf0567b5ee8ffc51--castle-in-the-sky-spirited-away.jpg"
@@ -1627,7 +1671,11 @@
       "eye_color": "Dark brown",
       "hair_color": "Orange",
       "films": [
-        "http://localhost:8900/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "",
+           "id": ""
+        }
       ],
       "species": "http://localhost:8900/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
       "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/6/65/Okami.jpg"
