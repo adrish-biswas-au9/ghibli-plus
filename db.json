@@ -2627,5 +2627,6 @@
       "films": "http://localhost:8900/films/758bf02e-3122-46e0-884e-67cf83df1786",
       "image_url": "https://i.pinimg.com/564x/c6/a8/48/c6a848ed754ed6fc23f5acd4c3ef9ceb.jpg"
     }
-  ]
+  ],
+  "wishlist": []
 }
