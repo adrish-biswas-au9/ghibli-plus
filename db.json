@@ -171,6 +171,26 @@
           "id": "f467e18e-3694-409f-bdb3-be891ade1106",
           "name": "Catbus",
           "image_url": "https://i.pinimg.com/originals/10/1f/62/101f62dec80f787138b962fb722aaac7.jpg"
+        },
+        {
+          "id": "986faac6-67e3-4fb8-a9ee-bad077c2e7fe",
+          "name": "Satsuki Kusakabe",
+          "image_url": "https://static.wikia.nocookie.net/disney/images/b/b9/Satsuki.jpg"
+        },
+        {
+          "id": "d5df3c04-f355-4038-833c-83bd3502b6b9",
+          "name": "Mei Kusakabe",
+          "image_url": "https://static.wikia.nocookie.net/disney/images/6/6f/Mei.png"
+        },
+        {
+          "id": "3031caa8-eb1a-41c6-ab93-dd091b541e11",
+          "name": "Tatsuo Kusakabe",
+          "image_url": "https://pm1.narvii.com/6864/c73cfe4913ac919b7604713891ab8438d5780742r1-1920-1080v2_hq.jpg"
+        },
+        {
+          "id": "87b68b97-3774-495b-bf80-495a5f3e672d",
+          "name": "Yasuko Kusakabe",
+          "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/6/68/My_Neighbor_Totoro_-_Sick_mom_and_kids.jpg"
         }
       ],
       "video_buy": [
@@ -250,27 +270,8 @@
           "id": "7151abc6-1a9e-4e6a-9711-ddb50ea572ec",
           "image_url": "https://i.pinimg.com/originals/6b/3c/c5/6b3cc52b29ef9dabc74af57cfbd62224.jpg",
           "name": "Jiji"
-        },
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c04",
-          "image_url": "https://www.anime-planet.com/images/characters/kiki-kikis-delivery-service-5007.jpg",
-          "name": "Kiki"
-        },
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c05",
-          "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/4/4e/Kiki-delivery-disneyscreencaps.com-6443.jpg",
-          "name": "Madame"
-        },
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c06",
-          "image_url": "https://myanimelist.net/images/characters/3/316576.jpg",
-          "name": "Kiki"
-        },
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c07",
-          "image_url": "https://cdn.myanimelist.net/images/characters/13/85566.jpg",
-          "name": "Tombo"
         }
+        
       ],
       "video_buy": [
         {
@@ -331,16 +332,7 @@
         "https://studio-ghibli-universe-api.herokuapp.com/characters/"
       ],
       "char": [
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c02",
-          "image_url": "https://www.anime-planet.com/images/characters/seita-2416.jpg",
-          "name": "Seita Yokokawa"
-        },
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c03",
-          "image_url": "https://i.pinimg.com/originals/df/2d/ef/df2defe50e7aa11805a337585cd93ede.jpg",
-          "name": "Setsuko Yokokawa"
-        }
+        
       ],
       "video_buy": [
         {
@@ -397,15 +389,11 @@
       ],
       "char": [
         {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c02",
-          "image_url": "https://www.anime-planet.com/images/characters/seita-2416.jpg",
-          "name": "Seita Yokokawa"
-        },
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c03",
-          "image_url": "https://i.pinimg.com/originals/df/2d/ef/df2defe50e7aa11805a337585cd93ede.jpg",
-          "name": "Setsuko Yokokawa"
+          "id": "6523068d-f5a9-4150-bf5b-76abe6fb42c3",
+          "image_url": "https://studioghiblimovies.com/wp-content/uploads/2018/05/36.jpg",
+          "name": "Porco Rosso"
         }
+        
       ],
       "video_buy": [
         {
@@ -466,16 +454,7 @@
         "https://studio-ghibli-universe-api.herokuapp.com/characters/"
       ],
       "char": [
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c02",
-          "image_url": "https://www.anime-planet.com/images/characters/seita-2416.jpg",
-          "name": "Seita Yokokawa"
-        },
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c03",
-          "image_url": "https://i.pinimg.com/originals/df/2d/ef/df2defe50e7aa11805a337585cd93ede.jpg",
-          "name": "Setsuko Yokokawa"
-        }
+        
       ],
       "video_buy": [
         {
@@ -595,14 +574,54 @@
       "rt_score": "92",
       "char": [
         {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c02",
-          "image_url": "https://www.anime-planet.com/images/characters/seita-2416.jpg",
-          "name": "Seita Yokokawa"
+          "id": "ba924631-068e-4436-b6de-f3283fa848f0",
+          "image_url": "https://images3.alphacoders.com/997/997482.jpg",
+          "name": "Ashitaka"
         },
         {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c03",
-          "image_url": "https://i.pinimg.com/originals/df/2d/ef/df2defe50e7aa11805a337585cd93ede.jpg",
-          "name": "Setsuko Yokokawa"
+          "id": "ebe40383-aad2-4208-90ab-698f00c581ab",
+          "image_url": "https://studioghiblimovies.com/wp-content/uploads/2017/03/astri-lohne-sjursen-mononokeb.jpg",
+          "name": "San"
+        },
+        {
+          "id": "34277bec-7401-43fa-a00a-5aee64b45b08",
+          "image_url": "https://i.ytimg.com/vi/vLBhOlnpttQ/maxresdefault.jpg",
+          "name": "Eboshi"
+        },
+        {
+          "id": "91939012-90b9-46e5-a649-96b898073c82",
+          "image_url": "https://www.winwallpapers.net/w1/2013/12/Princess-Mononoke-1997-Pictures.jpg",
+          "name": "Jigo"
+        },
+        {
+          "id": "20e3bd33-b35d-41e6-83a4-57ca7f028d38",
+          "image_url": "https://www.anime-planet.com/images/characters/koroku-2705.jpg",
+          "name": "Kohroku"
+        },
+        {
+          "id": "8bccdc78-545b-49f4-a4c8-756163a38c91",
+          "image_url": "https://cdna.artstation.com/p/assets/covers/images/005/012/102/large/alexandre-leoni-5c83af16165399-576ffe9ba802a.jpg",
+          "name": "Gonza"
+        },
+        {
+          "id": "116bfe1b-3ba8-4fa0-8f72-88537a493cb9",
+          "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/8/83/Hii-sama.jpg",
+          "name": "Hii-sama"
+        },
+        {
+          "id": "030555b3-4c92-4fce-93fb-e70c3ae3df8b",
+          "image_url": "https://cdna.artstation.com/p/assets/images/images/012/026/636/large/sameer-sadiq-yakul.jpg",
+          "name": "Yakul"
+        },
+        {
+          "id": "ca568e87-4ce2-4afa-a6c5-51f4ae80a60b",
+          "image_url": "https://cdn.myanimelist.net/s/common/uploaded_files/1447962054-bee4b58a7f033135a8665e0b6cd7acd4.jpeg",
+          "name": "Shishigami"
+        },
+        {
+          "id": "e9356bb5-4d4a-4c93-aadc-c83e514bffe3",
+          "image_url": "https://i.pinimg.com/originals/27/54/ad/2754adf81344da5609e1c8959f5f9952.png",
+          "name": "Moro"
         }
       ],
       "video_buy": [
@@ -678,16 +697,7 @@
         "https://studio-ghibli-universe-api.herokuapp.com/characters/"
       ],
       "char": [
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c02",
-          "image_url": "https://www.anime-planet.com/images/characters/seita-2416.jpg",
-          "name": "Seita Yokokawa"
-        },
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c03",
-          "image_url": "https://i.pinimg.com/originals/df/2d/ef/df2defe50e7aa11805a337585cd93ede.jpg",
-          "name": "Setsuko Yokokawa"
-        }
+        
       ],
       "video_buy": [
         {
@@ -803,16 +813,7 @@
         "https://studio-ghibli-universe-api.herokuapp.com/characters/"
       ],
       "char": [
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c02",
-          "image_url": "https://www.anime-planet.com/images/characters/seita-2416.jpg",
-          "name": "Seita Yokokawa"
-        },
-        {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c03",
-          "image_url": "https://i.pinimg.com/originals/df/2d/ef/df2defe50e7aa11805a337585cd93ede.jpg",
-          "name": "Setsuko Yokokawa"
-        }
+       
       ],
       "video_buy": [
         {
@@ -879,14 +880,29 @@
       ],
       "char": [
         {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c02",
-          "image_url": "https://www.anime-planet.com/images/characters/seita-2416.jpg",
-          "name": "Seita Yokokawa"
+          "id": "6b3facea-ea33-47b1-96ce-3fc737b119b8",
+          "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/e/e7/Muta.png",
+          "name": "Renaldo Moon aka Moon aka Muta"
         },
         {
-          "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c03",
-          "image_url": "https://i.pinimg.com/originals/df/2d/ef/df2defe50e7aa11805a337585cd93ede.jpg",
-          "name": "Setsuko Yokokawa"
+          "id": "3042818d-a8bb-4cba-8180-c19249822d57",
+          "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/3/37/Cat_King.jpg",
+          "name": "Cat King"
+        },
+        {
+          "id": "58d1973f-f247-47d7-9358-e56cb0d2b5a6",
+          "image_url": "https://pm1.narvii.com/7311/82f472d7a117d57f060f731c4c01f053dd7ed9adr1-2048-1536v2_hq.jpg",
+          "name": "Yuki"
+        },
+        {
+          "id": "fc196c4f-0201-4ed2-9add-c6403f7c4d32",
+          "image_url": "https://i.pinimg.com/originals/75/30/07/753007f26d264d3be59f0e7b02a083ee.jpg",
+          "name": "Baron Humbert von Gikkingen"
+        },
+        {
+          "id": "466bc926-2024-4653-ac63-fe52f2dc8c7b",
+          "image_url": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c4/Natori.jpg",
+          "name": "Natori"
         }
       ],
       "video_buy": [
@@ -1523,7 +1539,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1541,7 +1557,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1559,7 +1575,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1577,7 +1593,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1595,7 +1611,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1613,7 +1629,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1631,7 +1647,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1649,7 +1665,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1667,7 +1683,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1685,7 +1701,7 @@
         {
           "name": "Castle in the Sky",
           "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
-          "id": ""
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
         }
       ],
       "film_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
@@ -1701,9 +1717,9 @@
       "hair_color": "Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1718,9 +1734,9 @@
       "hair_color": "Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1735,9 +1751,9 @@
       "hair_color": "Black",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1752,9 +1768,9 @@
       "hair_color": "Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1769,9 +1785,9 @@
       "hair_color": "Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1786,9 +1802,9 @@
       "hair_color": "Bald, but beard is Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1803,9 +1819,9 @@
       "hair_color": "White",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1820,9 +1836,9 @@
       "hair_color": "Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e",
@@ -1837,9 +1853,9 @@
       "hair_color": "Light Orange",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e",
@@ -1854,9 +1870,9 @@
       "hair_color": "White",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Princess Mononoke",
+          "image_url": "https://m.media-amazon.com/images/I/81Yh2gl48JL._AC_SL1500_.jpg",
+          "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/f25fa661-3073-414d-968a-ab062e3065f7",
@@ -1888,9 +1904,9 @@
       "hair_color": "Dark Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "My Neighbour Totoro",
+          "image_url": "https://cdna.artstation.com/p/assets/images/images/007/731/078/large/jackson-hadaway-my-neighbour-totoro-2.jpg?1508149198",
+          "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1905,9 +1921,9 @@
       "hair_color": "Light Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "My Neighbour Totoro",
+          "image_url": "https://cdna.artstation.com/p/assets/images/images/007/731/078/large/jackson-hadaway-my-neighbour-totoro-2.jpg?1508149198",
+          "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1922,9 +1938,9 @@
       "hair_color": "Dark Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "My Neighbour Totoro",
+          "image_url": "https://cdna.artstation.com/p/assets/images/images/007/731/078/large/jackson-hadaway-my-neighbour-totoro-2.jpg?1508149198",
+          "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -1939,9 +1955,9 @@
       "hair_color": "Dark Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "My Neighbour Totoro",
+          "image_url": "https://cdna.artstation.com/p/assets/images/images/007/731/078/large/jackson-hadaway-my-neighbour-totoro-2.jpg?1508149198",
+          "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -2058,9 +2074,9 @@
       "hair_color": "Beige",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Arriety",
+          "image_url": "https://www.isthismoviesuitable.com/wp-content/uploads/2018/08/arrietty-movie-poster.jpg",
+          "id": "2de9426b-914a-4a06-a3a0-5e6d9d3886f6"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
@@ -2075,14 +2091,14 @@
       "hair_color": "Beige",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Arriety",
+          "image_url": "https://www.isthismoviesuitable.com/wp-content/uploads/2018/08/arrietty-movie-poster.jpg",
+          "id": "2de9426b-914a-4a06-a3a0-5e6d9d3886f6"
         },
           {
-            "name": "Castle in the Sky",
-            "image_url": "",
-            "id": ""
+            "name": "The Cat Returns",
+            "image_url": "https://fesapusewebsite.blob.core.windows.net/fathom/catreturns-1000x1480-r2-e2481ba29124ec1d9943105ae36a66ff.jpg",
+            "id": "90b72513-afd4-4570-84de-a56c312fdf81"
           }
 
       ],
@@ -2098,9 +2114,9 @@
       "hair_color": "Grey",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "The Cat Returns",
+          "image_url": "https://fesapusewebsite.blob.core.windows.net/fathom/catreturns-1000x1480-r2-e2481ba29124ec1d9943105ae36a66ff.jpg",
+          "id": "90b72513-afd4-4570-84de-a56c312fdf81"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
@@ -2115,9 +2131,9 @@
       "hair_color": "White",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "The Cat Returns",
+          "image_url": "https://fesapusewebsite.blob.core.windows.net/fathom/catreturns-1000x1480-r2-e2481ba29124ec1d9943105ae36a66ff.jpg",
+          "id": "90b72513-afd4-4570-84de-a56c312fdf81"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
@@ -2132,9 +2148,9 @@
       "hair_color": "Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "The Cat Returns",
+          "image_url": "https://fesapusewebsite.blob.core.windows.net/fathom/catreturns-1000x1480-r2-e2481ba29124ec1d9943105ae36a66ff.jpg",
+          "id": "90b72513-afd4-4570-84de-a56c312fdf81"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
@@ -2149,16 +2165,16 @@
       "hair_color": "Yellow",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Arriety",
+          "image_url": "https://www.isthismoviesuitable.com/wp-content/uploads/2018/08/arrietty-movie-poster.jpg",
+          "id": "2de9426b-914a-4a06-a3a0-5e6d9d3886f6"
         },
        
-          {
-            "name": "Castle in the Sky",
-            "image_url": "",
-            "id": ""
-          }
+        {
+          "name": "The Cat Returns",
+          "image_url": "https://fesapusewebsite.blob.core.windows.net/fathom/catreturns-1000x1480-r2-e2481ba29124ec1d9943105ae36a66ff.jpg",
+          "id": "90b72513-afd4-4570-84de-a56c312fdf81"
+        }
         
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
@@ -2173,9 +2189,9 @@
       "hair_color": "Grey",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "The Cat Returns",
+          "image_url": "https://fesapusewebsite.blob.core.windows.net/fathom/catreturns-1000x1480-r2-e2481ba29124ec1d9943105ae36a66ff.jpg",
+          "id": "90b72513-afd4-4570-84de-a56c312fdf81"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
@@ -2190,9 +2206,9 @@
       "hair_color": "Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Porco Rosso",
+          "image_url": "https://i.redd.it/ixtognyriq751.jpg",
+          "id": "ebbb6b7c-945c-41ee-a792-de0e43191bd8"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -2207,9 +2223,9 @@
       "hair_color": "Brown",
       "films": [
         {
-          "name": "Castle in the Sky",
-          "image_url": "",
-          "id": ""
+          "name": "Ponyo",
+          "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6123/6123625_so.jpg",
+          "id": "758bf02e-3122-46e0-884e-67cf83df1786"
         }
       ],
       "species": "https://studio-ghibli-universe-api.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
