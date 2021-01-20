@@ -2244,8 +2244,13 @@
         "https://studio-ghibli-universe-api.herokuapp.com/characters/030555b3-4c92-4fce-93fb-e70c3ae3df8b"
       ],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
+      
       "image_url": [
         "https://www.teahub.io/photos/full/230-2307041_princess-mononoke-iron-town.jpg"
       ]
@@ -2261,7 +2266,12 @@
         "https://studio-ghibli-universe-api.herokuapp.com/characters/030555b3-4c92-4fce-93fb-e70c3ae3df8b"
       ],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6"
+        
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://www.itl.cat/pngfile/big/43-434579_ghibli-wallpapers-princess-mononoke-tree-spirits-background.png"
@@ -2281,7 +2291,11 @@
         "https://studio-ghibli-universe-api.herokuapp.com/characters/fc196c4f-0201-4ed2-9add-c6403f7c4d32"
       ],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": ["https://i.quotev.com/img/q/u/18/8/15/7qdr52nam3.jpg"]
     },
@@ -2293,7 +2307,11 @@
       "surface_water": "60",
       "residents": [],
       "films": [
-        "https://i.pinimg.com/originals/97/8e/af/978eaf6299c6cfd11ab600bfb23910d9.jpg"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://static.wikia.nocookie.net/studio-ghibli/images/8/8c/Marsh_house.jpg"
@@ -2307,7 +2325,11 @@
       "surface_water": "40",
       "residents": ["TODO"],
       "films": [
-        "https://i.pinimg.com/originals/3c/42/a8/3c42a80b8849bb8478714c74b14c806e.jpg"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/3c/42/a8/3c42a80b8849bb8478714c74b14c806e.jpg"
@@ -2321,7 +2343,11 @@
       "surface_water": "40",
       "residents": ["TODO"],
       "films": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUIaNMJjrSOfcvj7BgPaTbehhnbHzxF69Ibw&usqp=CAU"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUIaNMJjrSOfcvj7BgPaTbehhnbHzxF69Ibw&usqp=CAU"
@@ -2335,7 +2361,11 @@
       "surface_water": "40",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/1d/86/91/1d8691adcefba84e17dc579dbf21d02b.jpg"
@@ -2349,7 +2379,11 @@
       "surface_water": "40",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://64.media.tumblr.com/55b4ad199bf8d4054ec46588ef7e6fec/tumblr_p2mche8wwj1qa9gmgo2_r1_1280.jpg"
@@ -2363,8 +2397,11 @@
       "surface_water": "10",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/45204234-adfd-45cb-a505-a8e7a676b114",
-        "https://studio-ghibli-universe-api.herokuapp.com/films/578ae244-7750-4d9f-867b-f3cd3d6fecf4"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": ["https://i.imgur.com/Lpc6SvZ.jpg"]
     },
@@ -2376,7 +2413,11 @@
       "surface_water": "0",
       "residents": ["TODO"],
       "films": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-C5I2LlrA0fdJ3c08qU54S3dpq1CIPaQfdw&usqp=CAU"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-C5I2LlrA0fdJ3c08qU54S3dpq1CIPaQfdw&usqp=CAU"
@@ -2390,7 +2431,11 @@
       "surface_water": "0",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": ["https://cdn.hipwallpaper.com/i/33/97/16BWaV.jpg"]
     },
@@ -2402,7 +2447,11 @@
       "surface_water": "40",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/36/50/70/365070e4f342c47807e20a270fa9809f.jpg"
@@ -2416,7 +2465,11 @@
       "surface_water": "30",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/2c/3e/be/2c3ebee958c237eaf7fb37f38a30da09.jpg"
@@ -2430,7 +2483,11 @@
       "surface_water": "50",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/dc/cf/3d/dccf3ddadf7da2be02bbcdae04568a48.jpg"
@@ -2444,7 +2501,11 @@
       "surface_water": "60",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/3a/f0/c0/3af0c041f91b2991708edca76ce9dcf2.jpg"
@@ -2458,7 +2519,11 @@
       "surface_water": "70",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://www.teahub.io/photos/full/36-362793_japan-hayao-miyazaki-trees-spirited-away-bathroom-houses.jpg"
@@ -2472,7 +2537,11 @@
       "surface_water": "60",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": ["https://wallpapercave.com/wp/wp4603979.jpg"]
     },
@@ -2484,7 +2553,11 @@
       "surface_water": "40",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/4e236f34-b981-41c3-8c65-f8c9000b94e7"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/e8/9c/28/e89c282a6373dd7753959e0102d25c81.jpg"
@@ -2498,7 +2571,11 @@
       "surface_water": "40",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://64.media.tumblr.com/6adfbfe3182d0d12493c8d7b1384da73/tumblr_p1l4evCnBK1qa9gmgo7_1280.jpg"
@@ -2512,7 +2589,11 @@
       "surface_water": "30",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/a3/e5/bf/a3e5bfa12e907db4d0a3004023eaad42.jpg"
@@ -2526,7 +2607,11 @@
       "surface_water": "60",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbhKo3flxoSreqU8Hcj3uOltwUkf2pvTaR1g&usqp=CAU"
@@ -2540,7 +2625,11 @@
       "surface_water": "100",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/df/09/79/df0979032021273b4b123eee63280b53.jpg"
@@ -2554,7 +2643,11 @@
       "surface_water": "50",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/600x315/43/a4/6a/43a46a8aa6a6142a87032e65292659c4.jpg"
@@ -2568,7 +2661,11 @@
       "surface_water": "30",
       "residents": ["TODO"],
       "films": [
-        "https://studio-ghibli-universe-api.herokuapp.com/films/cd3d059c-09f4-4ff3-8d63-bc765a5184fa"
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
       ],
       "image_url": [
         "https://i.pinimg.com/originals/33/f8/e2/33f8e27be6585e434b663a387daa23ca.jpg"
@@ -2715,7 +2812,14 @@
       "vehicle_class": "Airship",
       "length": "1,000",
       "pilot": "https://studio-ghibli-universe-api.herokuapp.com/characters/40c005ce-3725-4f15-8409-3e1b1b14b583",
-      "films": "https://studio-ghibli-universe-api.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe",
+      "films": [
+        
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
+      ],
       "image_url": "https://i.pinimg.com/originals/63/84/c9/6384c9307df4c18576e564ab90d8e1f6.png"
     },
     {
@@ -2725,7 +2829,14 @@
       "vehicle_class": "Airplane",
       "length": "20",
       "pilot": "https://studio-ghibli-universe-api.herokuapp.com/characters/6523068d-f5a9-4150-bf5b-76abe6fb42c3",
-      "films": "https://studio-ghibli-universe-api.herokuapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8",
+      "films": [
+        
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
+      ],
       "image_url": "https://4.bp.blogspot.com/-9LYF-rZrRkE/TbQPOOPWumI/AAAAAAAAAAM/gHcCg6K0KxA/s1600/porco_rosso_movie_image_01.jpg"
     },
     {
@@ -2735,7 +2846,14 @@
       "vehicle_class": "Boat",
       "length": "10",
       "pilot": "https://studio-ghibli-universe-api.herokuapp.com/characters/a10f64f3-e0b6-4a94-bf30-87ad8bc51607",
-      "films": "https://studio-ghibli-universe-api.herokuapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786",
+      "films": [
+        
+        {
+          "name": "Castle in the Sky",
+          "image_url": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+          "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
+      ],
       "image_url": "https://i.pinimg.com/564x/c6/a8/48/c6a848ed754ed6fc23f5acd4c3ef9ceb.jpg"
     }
   ],
