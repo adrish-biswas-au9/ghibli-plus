@@ -2724,5 +2724,12 @@
     }
   ],
   "wishlist": [
+    {
+      "id": 9353,
+      "moviename": "Castle in the Sky",
+      "movieimage": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+      "email": "adrish@gmail.com",
+      "date": "Wed Jan 20 2021"
+    }
   ]
 }
