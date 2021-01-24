@@ -2858,6 +2858,25 @@
     }
   ],
   "wishlist": [
-    
+    {
+      "id": 6900,
+      "moviename": "Castle in the Sky",
+      "movieimage": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+      "movieid": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
+      "email": "kishandas909@gmail.com",
+      "username": "kishan",
+      "wishlist": "",
+      "date": "Mon Jan 25 2021"
+    },
+    {
+      "id": 8994,
+      "moviename": "Castle in the Sky",
+      "movieimage": "https://images-na.ssl-images-amazon.com/images/I/71HLiMMNe-L.jpg",
+      "movieid": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
+      "email": "adrishlinkin@gmail.com",
+      "username": "Adrish",
+      "wishlist": "",
+      "date": "Mon Jan 25 2021"
+    }
   ]
 }
